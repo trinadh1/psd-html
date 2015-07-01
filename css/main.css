@@ -1,9 +1,11 @@
 body {
-  background-color: #ecedf1; }
+  background-color: #ecedf1;
+  overflow-x:hidden;
+}
 
 .highlight {
   position: relative;
-  background-image: url('mountain.png');
+  background-image: url('../images/mountain.png');
   background-size: cover;
   color: #fff;
 }
@@ -171,7 +173,7 @@ article[article-type=video] p {
 
 .highlight {
   position: relative;
-  background: url("images/mountain.png") no-repeat 50% 20px;
+  background: url("../images/mountain.png") no-repeat 50% 20px;
   background-size: cover;
   color: #fff; }
   @media (max-width: 768px) {
